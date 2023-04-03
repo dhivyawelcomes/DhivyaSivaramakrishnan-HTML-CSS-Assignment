@@ -1,0 +1,168 @@
+h1{
+flex: 1;
+font-family: "Georgina";
+font-size: 30px;
+padding: 5px 30px;
+}
+
+.header{
+margin-left: auto;
+margin-right: auto;
+width:55%;
+color: black;
+background-color: grey;
+display:flex;
+height:80px;
+}
+
+#nav{
+flex: 2;
+display: flex;
+list-style: none;
+padding: 3%; 
+justify-content: center;
+width: 100%;
+}
+#nav li a{
+  padding: 5px 10px;
+  color: black;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+#nav a:hover{
+  color: blue;
+  background-color: black;
+}
+
+body{
+background-color: black;
+padding: 0;
+margin: 0;
+}
+
+.background{
+background-color: rgb(26,88,126);
+width: 100%;
+}
+.content{
+  display: flex;
+  width: 55%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.message{
+  flex:1;
+  border: 2px solid;
+  border-color: rgb(90,89,89);
+  margin: 10px;
+}
+.message h3{
+  color: white;
+  font-size: medium;
+  text-align: center;
+}
+.messsage p{
+  color: white;
+  font-size: small;
+  padding: 5px;
+  }
+  .links{
+    background-color: grey;
+    display: flex;
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .block{
+    background-color: white;
+    color: black;
+    width: 40%;
+    margin: 5px;
+    
+  }
+.block h2{
+  font-size: 20px;
+  margin-left: 15px;
+}
+#link{
+  list-style: none;
+  
+}
+#link li a{
+  padding: 5px 5px;
+  color: black;
+  font-weight: bold;
+  font-size: 13px;
+}
+.extra-support{
+  background-color: white;
+  margin: 5px;
+  width: 100%;
+  padding: 1%;
+  
+}
+.extra-support h2{
+  font-size: 20px;
+  margin-left: 15px;
+}
+.extra-support p{
+  font-size: 15px;
+  margin-left: 15px;
+  padding-right: 10px;
+  text-align: justify;
+}
+.footer{
+  display: flex;
+}
+.softskills{
+  flex: 1;
+  padding-left: 80px;
+}
+.softskills li a{
+  color: blue;
+
+}
+.impskills{
+  flex: 1;
+  }
+  .impskills li a{
+    color: blue;
+    font-weight: bold;
+    font-size: 13px;
+  }
+  .contact{
+    background-color: black;
+    display: flex;
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footer1{
+    flex: 1;
+  }
+  .image{
+    flex: 3;
+  }
+  .logo{
+    text-align: left;
+    padding-left: 150px;
+  }
+  .logo img{
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .image h3{
+    text-align: left;
+    padding-left: 100px;
+    font-size: 13px;
+    color: white;
+  }
+  .copyright{
+    flex: 1;
+    font-size: 13px;
+    text-align: right;
+    color: white;
+    padding-top: 80px;
+    padding-right: 20px;
+  }
